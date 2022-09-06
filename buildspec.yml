@@ -10,7 +10,7 @@ phases:
   build:
     commands:
       - echo "Building Angular project..."
-      - ng build --prod
+      - ng build
   post_build:
     commands:
       - echo "Updating files in the S3 bucket..."
